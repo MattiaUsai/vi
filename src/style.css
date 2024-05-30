@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  width: 100%;
+  padding-top: 50px;
+}
+.col-33 {
+  width: calc(100% / 3 - 20px);
+}
+.col-50 {
+  width: calc(100% / 2);
+  text-align: center;
+}
+.col-25 {
+  width: 25%;
+}
+
+header {
+  background-color: orange; /*colore sfondo header arancone */
+  color: white;
+}
+
+.logo {
+  max-width: 50%;
+}
+/* buttons header */
+.buttons {
+  line-height: 4;
+  text-align: right;
+}
+.button {
+  background-color: orange;
+  border: 0;
+  color: white;
+  margin: 10px;
+  font-size: xx-large;
+}
+.button:hover {
+  color: black;
+}
+.shopp {
+  width: 30px;
+}
+/* cambia il colore al passare del mouse  */
+.category:hover {
+  color: black;
+}
+/* imposta il logo al centro  */
+.hlogo {
+  text-align: center;
+}
+/* stilizza le categorie nell'header */
+.categories {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  line-height: 4;
+}
+/* contenitore per le immaggini dei prodotti */
+.content {
+  position: relative;
+  margin: 20px 10px;
+}
+img {
+  width: 100%;
+}
+
+/* selettori di personalizzazione */
+
+.price {
+  color: red;
+}
+/* imposta la prima lettera maiuscola nella marca  */
+.mark {
+  text-transform: capitalize;
+}
+.ex-price {
+  color: blue;
+  text-decoration: line-through;
+}
+/* rende tutto maiuscolo il nome dei prodotti  */
+.name {
+  text-transform: uppercase;
+}
+/* selettori hover per l'immagine del prodotto */
+.hover {
+  display: none;
+}
+.content:hover .view {
+  display: none;
+}
+.content:hover .hover {
+  display: block;
+}
+/* sfondo per il like */
+.heart-contain {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: x-large;
+}
+/* selettori hover per cambiare colore al cuore */
+.heart-hover {
+  display: none;
+  color: red;
+}
+.heart-contain:hover .heart-hover {
+  display: block;
+}
+.heart-contain:hover .heart-view {
+  display: none;
+}
+/* impostano lo sconto e la targetta sostanibile nell'immagine */
+.info-img {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+
+.info {
+  padding: 5px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+footer {
+  background-color: rgb(40, 37, 37);
+  color: whitesmoke;
+  padding: 30px;
+}
+.ft-container {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* social */
+.fa {
+  color: rgb(40, 37, 37);
+  background-color: white;
+  font-size: xx-large;
+  margin: 5px;
+}
