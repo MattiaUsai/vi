@@ -32,42 +32,41 @@ header {
   color: white;
 }
 
-.logo {
-  max-width: 50%;
-}
-/* buttons header */
-.buttons {
-  line-height: 4;
-  text-align: right;
-}
-.button {
-  background-color: orange;
-  border: 0;
-  color: white;
-  margin: 10px;
-  font-size: xx-large;
-}
-.button:hover {
-  color: black;
-}
-.shopp {
-  width: 30px;
-}
-/* cambia il colore al passare del mouse  */
-.category:hover {
-  color: black;
-}
-/* imposta il logo al centro  */
-.hlogo {
-  text-align: center;
-}
-/* stilizza le categorie nell'header */
-.categories {
-  text-align: left;
-  font-size: large;
-  font-weight: bold;
-  line-height: 4;
-}
+// .logo {
+//   max-width: 50%;
+// }
+// /* buttons header */
+// .buttons {
+//   text-align: right;
+// }
+// .button {
+//   background-color: orange;
+//   border: 0;
+//   color: white;
+//   margin: 10px;
+//   font-size: xx-large;
+// }
+// .button:hover {
+//   color: black;
+// }
+// .shopp {
+//   width: 30px;
+// }
+// /* cambia il colore al passare del mouse  */
+// .category:hover {
+//   color: black;
+// }
+// /* imposta il logo al centro  */
+// .hlogo {
+//   text-align: center;
+// }
+// /* stilizza le categorie nell'header */
+// .categories {
+//   text-align: left;
+//   font-size: large;
+//   font-weight: bold;
+//   line-height: 4;
+// }
 /* contenitore per le immaggini dei prodotti */
 .content {
   position: relative;
