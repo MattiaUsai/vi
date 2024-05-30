@@ -9,9 +9,9 @@ export default {
       <!-- imposta la larghezza a 25%  categorie uomo donna bambino-->
       <div class="col-25">
         <div class="categories">
-          <span class="category">Uomo</span>
-          <span class="category">Donna</span>
-          <span class="category">Bambino</span>
+          <button class="category">Uomo</button>
+          <button class="category">Donna</button>
+          <button class="category">Bambino</button>
         </div>
       </div>
       <!-- larghezza 50% logo al centro della pagina -->
@@ -29,4 +29,10 @@ export default {
     </div>
   </header>
 </template>
-<style></style>
+<style scoped>
+button {
+  background: orange;
+  border: none;
+  color: white;
+}
+</style>
