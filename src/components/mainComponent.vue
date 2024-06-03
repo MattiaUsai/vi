@@ -91,6 +91,7 @@ export default {
 
         <div class="content col-33" v-for="product in productlist">
           <!-- immagine prodotto -->
+
           <img class="view" :src="product.img" alt="" />
           <!-- immagine da visualizzare al passare del mouse -->
           <img class="hover" :src="product.imgHover" alt="" />
@@ -115,7 +116,7 @@ export default {
             }}</span>
             <!-- sostenibilita -->
             <span class="bg-green info" v-show="product.eGreen"
-              >sostenibile</span
+              >sostenible</span
             >
           </div>
         </div>
