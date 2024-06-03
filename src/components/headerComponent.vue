@@ -18,13 +18,18 @@ export default {
       <img class="logo" src="/img/boolean-logo.png" alt="" />
     </div>
     <!-- bottoni carello, accedi e preferiti -->
-    <div class="col-25 buttons">
-      <button class="prefered">&hearts;</button>
-      <button class="shop"></button>
-      <button class="button">&#128100;</button>
+    <div class="col-25">
+      <div class="buttons">
+        <button class="prefered">&hearts;</button>
+        <button class="shop">
+          <font-awesome-icon :icon="['fass', 'cart-shopping']" />
+        </button>
+        <button class="button">&#128100;</button>
+      </div>
     </div>
   </header>
 </template>
+
 <style scoped>
 button {
   background: orange;
@@ -41,5 +46,8 @@ header {
 }
 .buttons {
   text-align: right;
+}
+.buttons button {
+  width: 30px;
 }
 </style>
